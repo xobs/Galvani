@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Galvani")(type "KiCad")(uri "${KIPRJMOD}/Galvani.kicad_sym")(options "")(descr ""))
+)
