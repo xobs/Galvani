@@ -324,7 +324,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/bne800.pretty/WS2812-2020--3DModel-STEP-1.STEP"
+	(model "${KIPRJMOD}/Galvani.pretty/WS2812-2020--3DModel-STEP-1.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
