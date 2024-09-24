@@ -2,6 +2,12 @@
 
 A controller for driving pretty lights from AC-driven trains by connecting roller pickups.
 
+![EVT1 PCB render](doc/pcb-evt1.jpg)
+
+Galvani is rated to drive 3 Amps. This is around 40 lights at full bright white, plus the wifi access point. Exceeding this value trips a resettable fuse.
+
+Only run full LEDs when driving from a power supply. When running from USB, only use the onboard LEDs.
+
 ## Installation
 
 Install WLED for the ESP32C3. Hold down the "PROG" button as plug in the USB cable. Alternately, hold down "PROG" and press "RESET".
