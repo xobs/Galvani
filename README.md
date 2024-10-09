@@ -2,7 +2,7 @@
 
 A controller for driving pretty lights from AC-driven trains by connecting roller pickups.
 
-![EVT1 PCB render](doc/pcb-evt1.jpg)
+![EVT2 PCB render](doc/Galvani-EVT2-top.jpg)
 
 Galvani is rated to drive 3 Amps. This is around 40 lights at full bright white, plus the wifi access point. Exceeding this value trips a resettable fuse.
 
@@ -10,7 +10,7 @@ Only run full LEDs when driving from a power supply. When running from USB, only
 
 ## Installation
 
-Install WLED for the ESP32C3. Hold down the "PROG" button as plug in the USB cable. Alternately, hold down "PROG" and press "RESET".
+Install WLED for the ESP32S3. Hold down the "PROG" button as plug in the USB cable. Alternately, hold down "PROG" and press "RESET".
 
 Then, load the firmware using `esptool` or `probe-rs`.
 
@@ -20,7 +20,7 @@ You should be able to power a short string of LEDs from USB, depending on how mu
 
 Use the built-in web interface on WLED. Connect to the access point labelled `WLED-AP`. The password is `wled1234`. Then go to the address `4.3.2.1` in your browser.
 
-You can download an [iOS App](https://apps.apple.com/us/app/wled-native/id6446207239) or [Android App](https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid) to control the lights from your phone or tablet.
+You can download an [iOS App](https://apps.apple.com/us/app/wled-native/id6446207239) or [Android App](https://play.google.com/store/apps/details?id=com.pixelheart.wledplus) to control the lights from your phone or tablet.
 
 ## Connecting LED Strips
 

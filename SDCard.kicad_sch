@@ -612,7 +612,7 @@
 				)
 			)
 		)
-		(symbol "Galvani:R 20k 0201"
+		(symbol "Galvani:R 22.1k 0201"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -628,7 +628,7 @@
 					)
 				)
 			)
-			(property "Value" "R 20k 0201"
+			(property "Value" "R 22.1k 0201"
 				(at 8.89 0 90)
 				(effects
 					(font
@@ -682,15 +682,16 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "20k"
-				(at 1.27 0 90)
+			(property "Val" "22.1k"
+				(at 1.524 3.048 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "ki_keywords" "R res resistor 20k"
+			(property "ki_keywords" "R res resistor 22.1k"
 				(at 0 0 0)
 				(effects
 					(font
@@ -708,7 +709,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R 20k 0201_1_0"
+			(symbol "R 22.1k 0201_1_0"
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0 1.524) (xy 0.508 1.27) (xy -0.508 0.762) (xy 0.508 0.254) (xy -0.508 -0.254)
@@ -1436,7 +1437,7 @@
 		(uuid "37cceaee-674b-4a06-9b2a-9efcc9f849c0")
 	)
 	(symbol
-		(lib_id "Galvani:R 20k 0201")
+		(lib_id "Galvani:R 22.1k 0201")
 		(at 123.19 80.01 0)
 		(mirror x)
 		(unit 1)
@@ -1454,7 +1455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R 20k 0201"
+		(property "Value" "R 22.1k 0201"
 			(at 132.08 80.01 90)
 			(effects
 				(font
@@ -1508,7 +1509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "20k"
+		(property "Val" "22.1k"
 			(at 124.46 80.01 90)
 			(effects
 				(font
@@ -1532,7 +1533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:R 20k 0201")
+		(lib_id "Galvani:R 22.1k 0201")
 		(at 128.27 80.01 0)
 		(mirror x)
 		(unit 1)
@@ -1550,7 +1551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R 20k 0201"
+		(property "Value" "R 22.1k 0201"
 			(at 137.16 80.01 90)
 			(effects
 				(font
@@ -1604,7 +1605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "20k"
+		(property "Val" "22.1k"
 			(at 129.54 80.01 90)
 			(effects
 				(font
@@ -2118,7 +2119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:R 20k 0201")
+		(lib_id "Galvani:R 22.1k 0201")
 		(at 113.03 80.01 0)
 		(mirror x)
 		(unit 1)
@@ -2136,7 +2137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R 20k 0201"
+		(property "Value" "R 22.1k 0201"
 			(at 121.92 80.01 90)
 			(effects
 				(font
@@ -2190,7 +2191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "20k"
+		(property "Val" "22.1k"
 			(at 114.3 80.01 90)
 			(effects
 				(font
@@ -2214,7 +2215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:R 20k 0201")
+		(lib_id "Galvani:R 22.1k 0201")
 		(at 118.11 80.01 0)
 		(mirror x)
 		(unit 1)
@@ -2232,7 +2233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R 20k 0201"
+		(property "Value" "R 22.1k 0201"
 			(at 127 80.01 90)
 			(effects
 				(font
@@ -2286,7 +2287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "20k"
+		(property "Val" "22.1k"
 			(at 119.38 80.01 90)
 			(effects
 				(font

@@ -321,221 +321,6 @@
 				)
 			)
 		)
-		(symbol "Galvani:JST-PH-2.0-1x3"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J?"
-				(at -1.524 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "JST-PH-1x3"
-				(at 2.794 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312311106_HCTL-HC-PH-3AWT_C2845443.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "HCTL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "HC-PH-3AWT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2845443"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JST-PH-2.0-1x3_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Galvani:V5V"
 			(power)
 			(pin_names
@@ -776,22 +561,22 @@
 				)
 			)
 		)
-		(symbol "Galvani:WS2812C-2020"
+		(symbol "Galvani:WS2812B-2020"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D?"
-				(at -4.064 -6.35 0)
+			(property "Reference" "D"
+				(at 4.064 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "WS2812C-2020"
+			(property "Value" "WS2812B-2020"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -810,7 +595,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -829,7 +614,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2976072"
+			(property "LCSC" "C965555"
 				(at 0 0 0)
 				(effects
 					(font
@@ -877,7 +662,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812C-2020_0_0"
+			(symbol "WS2812B-2020_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -887,7 +672,7 @@
 					)
 				)
 			)
-			(symbol "WS2812C-2020_0_1"
+			(symbol "WS2812B-2020_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -3.556) (xy 1.778 -3.556)
@@ -984,7 +769,7 @@
 					)
 				)
 			)
-			(symbol "WS2812C-2020_1_1"
+			(symbol "WS2812B-2020_1_1"
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -1431,7 +1216,7 @@
 		(uuid "04b69007-dc0a-44a4-8869-2daa5715a2a0")
 	)
 	(junction
-		(at 154.94 128.27)
+		(at 140.97 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08a0a929-3429-47f8-8772-7652d1a0f683")
@@ -1443,13 +1228,13 @@
 		(uuid "6dfcc4a2-919c-4559-b25a-dddf4b819c8d")
 	)
 	(junction
-		(at 173.99 128.27)
+		(at 162.56 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "938e38ec-81a4-4230-8373-4f31974dd07d")
 	)
 	(junction
-		(at 212.09 128.27)
+		(at 205.74 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98341fb7-3064-4db8-b6d7-9c2941dcb815")
@@ -1461,34 +1246,22 @@
 		(uuid "ad0bae72-2798-4bd1-9a45-e743728f10ac")
 	)
 	(junction
-		(at 135.89 128.27)
+		(at 119.38 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aec825a9-9e5c-41a8-b2ce-009c8dd3efa6")
 	)
 	(junction
-		(at 116.84 128.27)
+		(at 97.79 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b716d879-f75d-46f6-9795-a26b48aef1f6")
 	)
 	(junction
-		(at 116.84 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be5213f1-456e-4353-b27b-666ccdbf23c6")
-	)
-	(junction
-		(at 231.14 128.27)
+		(at 228.6 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cac1b6cf-c404-43aa-8538-519e12dd32dc")
-	)
-	(junction
-		(at 260.35 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb7db679-87b8-4ebd-b870-45304c898102")
 	)
 	(junction
 		(at 74.93 68.58)
@@ -1497,13 +1270,7 @@
 		(uuid "cd913312-e213-48c2-8daa-cd49c3994471")
 	)
 	(junction
-		(at 266.7 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2e610c6-da0e-4b12-b3c3-5727f7751abb")
-	)
-	(junction
-		(at 193.04 128.27)
+		(at 184.15 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5153e29-d69f-4bab-ac0c-ac1324096bb5")
@@ -1540,7 +1307,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 128.27) (xy 193.04 125.73)
+			(xy 184.15 128.27) (xy 184.15 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 138.43) (xy 265.43 138.43)
+			(xy 267.97 133.35) (xy 265.43 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 128.27) (xy 173.99 125.73)
+			(xy 162.56 128.27) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 128.27) (xy 116.84 125.73)
+			(xy 97.79 128.27) (xy 97.79 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 128.27) (xy 154.94 128.27)
+			(xy 137.16 128.27) (xy 140.97 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 167.64) (xy 148.59 167.64)
+			(xy 36.83 134.62) (xy 55.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1620,17 +1387,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 128.27) (xy 260.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2beb4244-6cf4-4788-aa13-defba62e1645")
-	)
-	(wire
-		(pts
-			(xy 132.08 128.27) (xy 135.89 128.27)
+			(xy 115.57 128.27) (xy 119.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1650,16 +1407,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 166.37) (xy 116.84 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32e8c325-b421-49e1-9851-74cc7d5a3c9a")
-	)
-	(wire
-		(pts
 			(xy 74.93 68.58) (xy 74.93 69.85)
 		)
 		(stroke
@@ -1670,7 +1417,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 135.89) (xy 204.47 135.89)
+			(xy 191.77 135.89) (xy 198.12 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 128.27) (xy 231.14 125.73)
+			(xy 228.6 128.27) (xy 228.6 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1700,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 154.94 125.73)
+			(xy 140.97 128.27) (xy 140.97 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 170.18) (xy 148.59 170.18)
+			(xy 53.34 137.16) (xy 55.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 212.09 125.73)
+			(xy 205.74 128.27) (xy 205.74 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1730,23 +1477,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 128.27) (xy 193.04 128.27)
+			(xy 180.34 128.27) (xy 184.15 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50da1973-fc57-4c35-b9f5-3a1a45ecd644")
-	)
-	(wire
-		(pts
-			(xy 260.35 140.97) (xy 260.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ecc85b-a7f3-45fc-bf98-504e7cfb7a30")
 	)
 	(wire
 		(pts
@@ -1770,26 +1507,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 140.97) (xy 267.97 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c7adeb-fac8-45a8-a559-06a493f0c8ec")
-	)
-	(wire
-		(pts
-			(xy 114.3 168.91) (xy 116.84 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6be971-51eb-441b-9898-9fa85649cd50")
-	)
-	(wire
-		(pts
 			(xy 80.01 67.31) (xy 80.01 68.58)
 		)
 		(stroke
@@ -1810,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 135.89) (xy 128.27 135.89)
+			(xy 105.41 135.89) (xy 111.76 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1820,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 135.89) (xy 223.52 135.89)
+			(xy 213.36 135.89) (xy 220.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1830,17 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 168.91) (xy 116.84 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f372c18-4ca2-4d63-8ee6-6a4a21921c4b")
-	)
-	(wire
-		(pts
-			(xy 146.05 165.1) (xy 148.59 165.1)
+			(xy 53.34 132.08) (xy 55.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1850,17 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 128.27) (xy 260.35 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8858a2f3-ef23-4290-b08d-592a114a0991")
-	)
-	(wire
-		(pts
-			(xy 227.33 128.27) (xy 231.14 128.27)
+			(xy 224.79 128.27) (xy 228.6 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1870,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 143.51) (xy 267.97 143.51)
+			(xy 265.43 138.43) (xy 267.97 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1890,27 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 125.73) (xy 266.7 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bdcf2f8-c1b2-4a0a-8c82-6688f69ba53f")
-	)
-	(wire
-		(pts
-			(xy 266.7 130.81) (xy 266.7 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25289b4-426b-42fd-bd64-b31213f4b4f8")
-	)
-	(wire
-		(pts
-			(xy 170.18 128.27) (xy 173.99 128.27)
+			(xy 158.75 128.27) (xy 162.56 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1920,33 +1597,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 130.81) (xy 266.7 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3845fba-1679-493d-b429-ee96f7a7167f")
-	)
-	(wire
-		(pts
-			(xy 238.76 135.89) (xy 242.57 135.89)
+			(xy 236.22 135.89) (xy 242.57 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9b1b13d-f938-4e43-ba8c-231558013ed4")
-	)
-	(wire
-		(pts
-			(xy 114.3 163.83) (xy 116.84 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b039b19c-c2b5-4bbf-a39e-04d7d6cb1644")
 	)
 	(wire
 		(pts
@@ -1960,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 128.27) (xy 212.09 128.27)
+			(xy 201.93 128.27) (xy 205.74 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 135.89) (xy 257.81 135.89)
+			(xy 257.81 135.89) (xy 267.97 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +1707,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 135.89) (xy 147.32 135.89)
+			(xy 214.63 128.27) (xy 218.44 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55ffbc6-4442-4510-938f-e04ea5ef0f83")
+	)
+	(wire
+		(pts
+			(xy 127 135.89) (xy 133.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 135.89) (xy 109.22 135.89)
+			(xy 73.66 135.89) (xy 90.17 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 128.27) (xy 116.84 128.27)
+			(xy 93.98 128.27) (xy 97.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 135.89) (xy 166.37 135.89)
+			(xy 148.59 135.89) (xy 154.94 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 181.61 135.89)
+			(xy 176.53 135.89) (xy 170.18 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 128.27) (xy 135.89 125.73)
+			(xy 119.38 128.27) (xy 119.38 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +1798,7 @@
 		(uuid 345c6d8c-5426-42ca-9c93-15a1d0513712)
 	)
 	(rectangle
-		(start 91.44 119.38)
+		(start 71.12 119.38)
 		(end 281.94 152.4)
 		(stroke
 			(width 0)
@@ -2143,8 +1810,8 @@
 		(uuid 8b1cd62b-872e-40fa-ac43-d9623933ad96)
 	)
 	(rectangle
-		(start 91.44 156.21)
-		(end 160.02 185.42)
+		(start 35.56 119.38)
+		(end 67.31 152.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -2167,7 +1834,7 @@
 	)
 	(text "Onboard LEDs"
 		(exclude_from_sim no)
-		(at 92.71 151.638 0)
+		(at 76.2 151.638 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2178,7 +1845,7 @@
 	)
 	(text "External LEDs"
 		(exclude_from_sim no)
-		(at 92.964 183.388 0)
+		(at 38.354 150.114 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2199,7 +1866,7 @@
 		(uuid "113be1a9-3ee0-48c9-a585-8d66942fe19f")
 	)
 	(label "LED_EXTERNAL_5V"
-		(at 129.54 167.64 0)
+		(at 36.83 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2221,7 +1888,7 @@
 		(uuid "4ef64f5a-c558-4085-9d9b-6c8f18d6aa5b")
 	)
 	(label "LED_INTERNAL_5V"
-		(at 92.71 135.89 0)
+		(at 73.66 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2252,17 +1919,6 @@
 			(justify left bottom)
 		)
 		(uuid "e76c6d7e-9a06-49df-95c8-a7b9fe36c3e3")
-	)
-	(label "LED_EXTERNAL_5V"
-		(at 97.79 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8d6c4e8-e845-4693-a667-13addc1e0dc9")
 	)
 	(hierarchical_label "LED_INTERNAL"
 		(shape input)
@@ -2455,8 +2111,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
-		(at 193.04 135.89 0)
+		(lib_id "Galvani:WS2812B-2020")
+		(at 184.15 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2464,23 +2120,24 @@
 		(dnp no)
 		(uuid "0370721a-cbe9-4fc4-bb02-9b733c37f6d6")
 		(property "Reference" "D6"
-			(at 197.104 129.794 0)
+			(at 188.214 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 200.914 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 185.42 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 194.31 143.51 0)
+			(at 185.42 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,8 +2146,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 195.58 145.415 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 186.69 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2157,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 193.04 135.89 0)
+			(at 184.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,8 +2165,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
-			(at 193.04 135.89 0)
+		(property "LCSC" "C965555"
+			(at 184.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2176,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 193.04 135.89 0)
+			(at 184.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2186,7 @@
 			)
 		)
 		(property "MPN" "WS2812C-2020-V1"
-			(at 193.04 135.89 0)
+			(at 184.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2218,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 128.27 0)
+		(at 130.81 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2570,7 +2227,7 @@
 		(fields_autoplaced yes)
 		(uuid "098b7056-f4a2-4027-b436-0f539064fb76")
 		(property "Reference" "#PWR047"
-			(at 144.78 134.62 0)
+			(at 130.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 133.35 0)
+			(at 130.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 128.27 0)
+			(at 130.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 128.27 0)
+			(at 130.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 128.27 0)
+			(at 130.81 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2351,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 128.27 0)
+		(at 214.63 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2703,7 +2360,7 @@
 		(fields_autoplaced yes)
 		(uuid "15013df3-2759-4307-bc43-0266f85e5e76")
 		(property "Reference" "#PWR075"
-			(at 220.98 134.62 0)
+			(at 214.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 133.35 0)
+			(at 214.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 128.27 0)
+			(at 214.63 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 128.27 0)
+			(at 214.63 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 128.27 0)
+			(at 214.63 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2418,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:Cap 100nF 0201")
-		(at 204.47 128.27 270)
+		(at 198.12 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2769,7 +2426,7 @@
 		(dnp no)
 		(uuid "15f78491-a84c-400a-9304-c64a4d53ec1e")
 		(property "Reference" "C27"
-			(at 200.406 127.254 90)
+			(at 194.056 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2435,7 @@
 			)
 		)
 		(property "Value" "Cap 100nF 0201"
-			(at 184.15 128.27 0)
+			(at 177.8 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2444,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:C_0201_0603Metric"
-			(at 191.77 128.27 0)
+			(at 185.42 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 128.27 0)
+			(at 198.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 128.27 0)
+			(at 198.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2471,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 186.69 128.27 0)
+			(at 180.34 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2480,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 189.23 128.27 0)
+			(at 182.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2489,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 205.74 127.254 90)
+			(at 199.39 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,108 +2604,6 @@
 			(project "Galvani"
 				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Galvani:JST-PH-2.0-1x3")
-		(at 271.78 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1790a989-3283-4438-acdd-b5ee16788c29")
-		(property "Reference" "J4"
-			(at 270.256 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST-PH-1x3"
-			(at 274.574 134.112 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312311106_HCTL-HC-PH-3AWT_C2845443.pdf"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "HCTL"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HC-PH-3AWT"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2845443"
-			(at 271.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82701d8d-5705-4b7d-a893-f4347b4c2537")
-		)
-		(pin "2"
-			(uuid "4c188c96-525e-4722-b5e3-eacac053d167")
-		)
-		(pin "3"
-			(uuid "9b31e9db-031e-4052-b88d-6d1ac24747d8")
-		)
-		(pin "MP"
-			(uuid "6a088270-b315-4881-a032-b95e72abfe2e")
-		)
-		(instances
-			(project "Galvani"
-				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3189,7 +2744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 143.51 0)
+		(at 205.74 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3198,7 +2753,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fe7de80-cffa-4e16-88c7-40d8f7c1fb09")
 		(property "Reference" "#PWR071"
-			(at 212.09 149.86 0)
+			(at 205.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +2762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 148.59 0)
+			(at 205.74 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 143.51 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 143.51 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +2789,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 143.51 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +2811,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:Cap 100nF 0201")
-		(at 185.42 128.27 270)
+		(at 176.53 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3264,7 +2819,7 @@
 		(dnp no)
 		(uuid "20216dfc-a5b8-4ad8-98d0-d082c2d97ab5")
 		(property "Reference" "C26"
-			(at 181.356 127.254 90)
+			(at 172.466 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +2828,7 @@
 			)
 		)
 		(property "Value" "Cap 100nF 0201"
-			(at 165.1 128.27 0)
+			(at 156.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:C_0201_0603Metric"
-			(at 172.72 128.27 0)
+			(at 163.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +2846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 128.27 0)
+			(at 176.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +2855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 128.27 0)
+			(at 176.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +2864,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 167.64 128.27 0)
+			(at 158.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +2873,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 170.18 128.27 0)
+			(at 161.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +2882,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 186.69 127.254 90)
+			(at 177.8 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,8 +2906,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
-		(at 116.84 135.89 0)
+		(lib_id "Galvani:WS2812B-2020")
+		(at 97.79 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3360,23 +2915,24 @@
 		(dnp no)
 		(uuid "256608e4-3d59-4ee7-aba7-b1561a38d96c")
 		(property "Reference" "D3"
-			(at 120.904 129.794 0)
+			(at 101.854 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 124.714 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 99.06 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 118.11 143.51 0)
+			(at 99.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,8 +2941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 119.38 145.415 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 100.33 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +2952,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 116.84 135.89 0)
+			(at 97.79 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,8 +2960,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
-			(at 116.84 135.89 0)
+		(property "LCSC" "C965555"
+			(at 97.79 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +2971,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 116.84 135.89 0)
+			(at 97.79 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +2981,7 @@
 			)
 		)
 		(property "MPN" "WS2812C-2020-V1"
-			(at 116.84 135.89 0)
+			(at 97.79 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,110 +3012,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:JST-PH-2.0-1x3")
-		(at 121.92 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2941aabd-3441-4e2c-930b-70fd8187d0c9")
-		(property "Reference" "J3"
-			(at 120.396 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST-PH-1x3"
-			(at 124.714 172.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
-			(at 121.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312311106_HCTL-HC-PH-3AWT_C2845443.pdf"
-			(at 121.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 121.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "HCTL"
-			(at 121.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HC-PH-3AWT"
-			(at 121.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2845443"
-			(at 121.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af5e9510-2d4f-460e-8fa8-f2909fe1f119")
-		)
-		(pin "2"
-			(uuid "17bdfd6c-de83-45ca-ac11-e1bfc1501bff")
-		)
-		(pin "3"
-			(uuid "e2ee2479-0ec0-4b32-a078-012fa609ea5b")
-		)
-		(pin "MP"
-			(uuid "96feccf8-3d56-4c92-99a7-27da43134b85")
-		)
-		(instances
-			(project "Galvani"
-				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 135.89 143.51 0)
+		(at 119.38 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3568,7 +3022,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b6325f2-8ee9-4511-b5eb-efa52c2b4fbe")
 		(property "Reference" "#PWR044"
-			(at 135.89 149.86 0)
+			(at 119.38 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 148.59 0)
+			(at 119.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 143.51 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 143.51 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3058,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 143.51 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,8 +3079,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
-		(at 154.94 135.89 0)
+		(lib_id "Galvani:WS2812B-2020")
+		(at 140.97 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3634,23 +3088,24 @@
 		(dnp no)
 		(uuid "2b6f9504-3a17-4a8f-9575-df631b4043da")
 		(property "Reference" "D4"
-			(at 159.004 129.794 0)
+			(at 145.034 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 162.814 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 142.24 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 156.21 143.51 0)
+			(at 142.24 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,8 +3114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 157.48 145.415 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 143.51 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3125,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 154.94 135.89 0)
+			(at 140.97 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,8 +3133,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
-			(at 154.94 135.89 0)
+		(property "LCSC" "C965555"
+			(at 140.97 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +3144,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 154.94 135.89 0)
+			(at 140.97 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3154,7 @@
 			)
 		)
 		(property "MPN" "WS2812C-2020-V1"
-			(at 154.94 135.89 0)
+			(at 140.97 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3186,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 143.51 0)
+		(at 265.43 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3740,7 +3195,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c5551b9-c73f-4324-b101-769090f9093c")
 		(property "Reference" "#PWR088"
-			(at 265.43 149.86 0)
+			(at 265.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3204,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 148.59 0)
+			(at 265.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 143.51 0)
+			(at 265.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 143.51 0)
+			(at 265.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 143.51 0)
+			(at 265.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3253,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 128.27 0)
+		(at 87.63 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3807,7 +3262,7 @@
 		(fields_autoplaced yes)
 		(uuid "34a6717d-77f1-45f5-ae61-11622b1c0c21")
 		(property "Reference" "#PWR030"
-			(at 106.68 134.62 0)
+			(at 87.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 133.35 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +3280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 128.27 0)
+			(at 87.63 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +3289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 128.27 0)
+			(at 87.63 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 128.27 0)
+			(at 87.63 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3320,8 @@
 	)
 	(symbol
 		(lib_id "Galvani:2060-453/998-404")
-		(at 273.05 140.97 0)
+		(at 273.05 135.89 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3873,7 +3329,7 @@
 		(dnp no)
 		(uuid "3a0b7c4b-64c6-42bf-ab0e-6deff1ccf8d2")
 		(property "Reference" "CONN2"
-			(at 270.256 147.32 0)
+			(at 270.256 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3338,7 @@
 			)
 		)
 		(property "Value" "Bare Wire"
-			(at 276.86 145.288 90)
+			(at 276.86 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3347,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:CONN-SMD_2060-453"
-			(at 275.336 149.098 0)
+			(at 275.336 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3356,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210406/C2765056_9CDA2223E0E8215FA599894D0B3F06B8.pdf"
-			(at 278.892 153.416 0)
+			(at 278.892 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3365,7 @@
 			)
 		)
 		(property "Description" "Structure:1x3P Pitch:4mm Color:White Mounting Style:- Number of Pins:3P Number of PINs Per Row:3 Current Rating (Max):9A Voltage Rating (Max):320V Wire Gauge - AWG:18~24 Wire Gauge - mm2:- Operating Temperature Range:-60°C~+105°C Operating Temperature Range"
-			(at 273.304 157.988 0)
+			(at 273.304 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3374,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO(万可)"
-			(at 273.812 168.148 0)
+			(at 273.812 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3383,7 @@
 			)
 		)
 		(property "MPN" "2060-453/998-404"
-			(at 271.78 164.592 0)
+			(at 271.78 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3392,7 @@
 			)
 		)
 		(property "LCSC" "C2765056"
-			(at 274.32 172.212 0)
+			(at 274.32 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,8 +3419,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
-		(at 173.99 135.89 0)
+		(lib_id "Galvani:WS2812B-2020")
+		(at 162.56 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3972,23 +3428,24 @@
 		(dnp no)
 		(uuid "3c74c432-7487-4017-a155-ef2fdf510721")
 		(property "Reference" "D5"
-			(at 178.054 129.794 0)
+			(at 166.624 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 181.864 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 163.83 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 175.26 143.51 0)
+			(at 163.83 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,8 +3454,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 176.53 145.415 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 165.1 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +3465,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 173.99 135.89 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,8 +3473,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
-			(at 173.99 135.89 0)
+		(property "LCSC" "C965555"
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +3484,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 173.99 135.89 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +3494,7 @@
 			)
 		)
 		(property "MPN" "WS2812C-2020-V1"
-			(at 173.99 135.89 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,73 +3526,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 265.43 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e767e4d-1758-468e-923a-70146d6a5262")
-		(property "Reference" "#PWR085"
-			(at 265.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V5V"
-			(at 265.43 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa69fa52-78c2-4c1e-939d-c0ce19c82011")
-		)
-		(instances
-			(project "Galvani"
-				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Galvani:V5V")
-		(at 135.89 125.73 0)
+		(at 119.38 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4143,7 +3534,7 @@
 		(dnp no)
 		(uuid "3f32dbfe-1ecb-4ddc-a832-bf9615496bb7")
 		(property "Reference" "#PWR043"
-			(at 135.89 129.54 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +3543,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 135.89 123.444 0)
+			(at 119.38 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +3551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 125.73 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +3560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 125.73 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +3569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 125.73 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +3591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 128.27 0)
+		(at 109.22 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4209,7 +3600,7 @@
 		(fields_autoplaced yes)
 		(uuid "45e8852b-e955-4ade-8957-419fe8cd6708")
 		(property "Reference" "#PWR042"
-			(at 125.73 134.62 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +3609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 133.35 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +3618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 128.27 0)
+			(at 109.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +3627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 128.27 0)
+			(at 109.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +3636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 128.27 0)
+			(at 109.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,8 +3657,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
-		(at 212.09 135.89 0)
+		(lib_id "Galvani:WS2812B-2020")
+		(at 205.74 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4275,23 +3666,24 @@
 		(dnp no)
 		(uuid "50646181-34ef-4573-9938-7560d581f5be")
 		(property "Reference" "D7"
-			(at 216.154 129.794 0)
+			(at 209.804 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 219.964 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 207.01 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 213.36 143.51 0)
+			(at 207.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,8 +3692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 214.63 145.415 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 208.28 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +3703,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 212.09 135.89 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,8 +3711,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
-			(at 212.09 135.89 0)
+		(property "LCSC" "C965555"
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +3722,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 212.09 135.89 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +3732,7 @@
 			)
 		)
 		(property "MPN" "WS2812C-2020-V1"
-			(at 212.09 135.89 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +3764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 128.27 0)
+		(at 152.4 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4381,7 +3773,7 @@
 		(fields_autoplaced yes)
 		(uuid "52f5948f-e689-43fc-b8a2-7c96cd71e063")
 		(property "Reference" "#PWR057"
-			(at 163.83 134.62 0)
+			(at 152.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +3782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 133.35 0)
+			(at 152.4 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 128.27 0)
+			(at 152.4 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 128.27 0)
+			(at 152.4 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +3809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 128.27 0)
+			(at 152.4 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +3831,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:Cap 100nF 0201")
-		(at 223.52 128.27 270)
+		(at 220.98 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4447,7 +3839,7 @@
 		(dnp no)
 		(uuid "534ededb-3a8d-4486-af3a-a49ad025d452")
 		(property "Reference" "C28"
-			(at 219.456 127.254 90)
+			(at 216.916 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +3848,7 @@
 			)
 		)
 		(property "Value" "Cap 100nF 0201"
-			(at 203.2 128.27 0)
+			(at 200.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,42 +3857,6 @@
 			)
 		)
 		(property "Footprint" "Galvani:C_0201_0603Metric"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 205.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 208.28 128.27 0)
 			(effects
 				(font
@@ -4509,8 +3865,44 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet" "~"
+			(at 220.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Val" "100nF"
-			(at 224.79 127.254 90)
+			(at 222.25 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4033,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:Cap 100nF 0201")
-		(at 109.22 128.27 270)
+		(at 90.17 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4649,7 +4041,7 @@
 		(dnp no)
 		(uuid "57276bd6-0737-45c6-a7e1-29859fdb3aab")
 		(property "Reference" "C22"
-			(at 105.156 127.254 90)
+			(at 86.106 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4050,7 @@
 			)
 		)
 		(property "Value" "Cap 100nF 0201"
-			(at 88.9 128.27 0)
+			(at 69.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4059,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:C_0201_0603Metric"
-			(at 96.52 128.27 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 128.27 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4086,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 91.44 128.27 0)
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4095,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 93.98 128.27 0)
+			(at 74.93 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,7 +4104,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 110.49 127.254 90)
+			(at 91.44 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4195,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 193.04 125.73 0)
+		(at 184.15 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4811,7 +4203,7 @@
 		(dnp no)
 		(uuid "5fadc322-82c8-4b5f-a77d-a4043058490c")
 		(property "Reference" "#PWR066"
-			(at 193.04 129.54 0)
+			(at 184.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4212,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 193.04 123.444 0)
+			(at 184.15 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 125.73 0)
+			(at 184.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 125.73 0)
+			(at 184.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 125.73 0)
+			(at 184.15 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 143.51 0)
+		(at 228.6 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4877,7 +4269,7 @@
 		(fields_autoplaced yes)
 		(uuid "64c761e6-62d1-46ce-8ced-9f3bb1bedf5b")
 		(property "Reference" "#PWR077"
-			(at 231.14 149.86 0)
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 148.59 0)
+			(at 228.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +4287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 143.51 0)
+			(at 228.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 143.51 0)
+			(at 228.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4305,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 143.51 0)
+			(at 228.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4327,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:Cap 100nF 0201")
-		(at 166.37 128.27 270)
+		(at 154.94 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4943,7 +4335,7 @@
 		(dnp no)
 		(uuid "6a860673-7003-46d0-8e0d-f0a48415a47e")
 		(property "Reference" "C25"
-			(at 162.306 127.254 90)
+			(at 150.876 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4344,7 @@
 			)
 		)
 		(property "Value" "Cap 100nF 0201"
-			(at 146.05 128.27 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:C_0201_0603Metric"
-			(at 153.67 128.27 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +4362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 128.27 0)
+			(at 154.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +4371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 128.27 0)
+			(at 154.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4380,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 148.59 128.27 0)
+			(at 137.16 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +4389,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 151.13 128.27 0)
+			(at 139.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +4398,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 167.64 127.254 90)
+			(at 156.21 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +4423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 128.27 0)
+		(at 195.58 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5040,7 +4432,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ab90bb6-6927-4169-a87d-dbd426398a9e")
 		(property "Reference" "#PWR069"
-			(at 201.93 134.62 0)
+			(at 195.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +4441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 133.35 0)
+			(at 195.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 128.27 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 128.27 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +4468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 128.27 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +4490,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 231.14 125.73 0)
+		(at 228.6 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5106,7 +4498,7 @@
 		(dnp no)
 		(uuid "7104fa3f-6ac5-4383-8c71-22e820122f5c")
 		(property "Reference" "#PWR076"
-			(at 231.14 129.54 0)
+			(at 228.6 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +4507,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 231.14 123.444 0)
+			(at 228.6 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 125.73 0)
+			(at 228.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +4524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 125.73 0)
+			(at 228.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +4533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 125.73 0)
+			(at 228.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,8 +4619,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
-		(at 231.14 135.89 0)
+		(lib_id "Galvani:WS2812B-2020")
+		(at 228.6 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5236,23 +4628,24 @@
 		(dnp no)
 		(uuid "83e44565-d246-4ae4-b040-1a7e3411005e")
 		(property "Reference" "D8"
-			(at 235.204 129.794 0)
+			(at 232.664 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 239.014 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 229.87 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 232.41 143.51 0)
+			(at 229.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,8 +4654,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 233.68 145.415 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 231.14 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +4665,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 231.14 135.89 0)
+			(at 228.6 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,8 +4673,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
-			(at 231.14 135.89 0)
+		(property "LCSC" "C965555"
+			(at 228.6 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +4684,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 231.14 135.89 0)
+			(at 228.6 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +4694,7 @@
 			)
 		)
 		(property "MPN" "WS2812C-2020-V1"
-			(at 231.14 135.89 0)
+			(at 228.6 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +4726,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:Cap 100nF 0201")
-		(at 128.27 128.27 270)
+		(at 111.76 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5341,7 +4734,7 @@
 		(dnp no)
 		(uuid "84e355b5-07d9-4718-98cb-927899f07e07")
 		(property "Reference" "C23"
-			(at 124.206 127.254 90)
+			(at 107.696 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +4743,7 @@
 			)
 		)
 		(property "Value" "Cap 100nF 0201"
-			(at 107.95 128.27 0)
+			(at 91.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +4752,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:C_0201_0603Metric"
-			(at 115.57 128.27 0)
+			(at 99.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +4761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 128.27 0)
+			(at 111.76 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +4770,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 128.27 0)
+			(at 111.76 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +4779,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 110.49 128.27 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +4788,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 113.03 128.27 0)
+			(at 96.52 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +4797,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 129.54 127.254 90)
+			(at 113.03 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +4822,8 @@
 	)
 	(symbol
 		(lib_id "Galvani:2060-453/998-404")
-		(at 153.67 167.64 0)
+		(at 60.96 134.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5437,7 +4831,7 @@
 		(dnp no)
 		(uuid "85040349-2821-400f-a026-cc7ab329196d")
 		(property "Reference" "CONN1"
-			(at 151.13 173.736 0)
+			(at 58.42 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +4840,7 @@
 			)
 		)
 		(property "Value" "Bare Wire"
-			(at 157.48 172.212 90)
+			(at 64.77 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +4849,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:CONN-SMD_2060-453"
-			(at 155.956 175.768 0)
+			(at 63.246 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +4858,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210406/C2765056_9CDA2223E0E8215FA599894D0B3F06B8.pdf"
-			(at 159.512 180.086 0)
+			(at 66.802 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +4867,7 @@
 			)
 		)
 		(property "Description" "Structure:1x3P Pitch:4mm Color:White Mounting Style:- Number of Pins:3P Number of PINs Per Row:3 Current Rating (Max):9A Voltage Rating (Max):320V Wire Gauge - AWG:18~24 Wire Gauge - mm2:- Operating Temperature Range:-60°C~+105°C Operating Temperature Range"
-			(at 153.924 184.658 0)
+			(at 61.214 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +4876,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO(万可)"
-			(at 154.432 194.818 0)
+			(at 61.722 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +4885,7 @@
 			)
 		)
 		(property "MPN" "2060-453/998-404"
-			(at 152.4 191.262 0)
+			(at 59.69 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +4894,7 @@
 			)
 		)
 		(property "LCSC" "C2765056"
-			(at 154.94 198.882 0)
+			(at 62.23 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +4922,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 170.18 0)
+		(at 53.34 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5537,7 +4931,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ae3a30f-1833-43d5-bec3-068ace28cfff")
 		(property "Reference" "#PWR050"
-			(at 146.05 176.53 0)
+			(at 53.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +4940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 175.26 0)
+			(at 53.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +4949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 170.18 0)
+			(at 53.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +4958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 170.18 0)
+			(at 53.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +4967,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 170.18 0)
+			(at 53.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 128.27 0)
+		(at 173.99 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5671,7 +5065,7 @@
 		(fields_autoplaced yes)
 		(uuid "966fd882-285a-4a2c-b43d-0a02d8c3f067")
 		(property "Reference" "#PWR064"
-			(at 182.88 134.62 0)
+			(at 173.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 128.27 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 128.27 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 128.27 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,139 +5116,6 @@
 			(project "Galvani"
 				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b417e62-5b14-4ee1-b95d-01490c722b7f")
-		(property "Reference" "#PWR033"
-			(at 114.3 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "452ba914-d46e-4fef-ad35-63d6b8c0fa9e")
-		)
-		(instances
-			(project "Galvani"
-				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Galvani:V5V")
-		(at 114.3 163.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bc50e58-e2a3-4da6-83cb-75ef3a64b189")
-		(property "Reference" "#PWR032"
-			(at 114.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V5V"
-			(at 114.3 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb9c0588-10fe-4e2a-b233-9139658168d7")
-		)
-		(instances
-			(project "Galvani"
-				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5929,7 +5190,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 154.94 125.73 0)
+		(at 140.97 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5937,7 +5198,7 @@
 		(dnp no)
 		(uuid "b48954e2-abcb-4165-92c8-994c1ade1eca")
 		(property "Reference" "#PWR054"
-			(at 154.94 129.54 0)
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +5207,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 154.94 123.444 0)
+			(at 140.97 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 125.73 0)
+			(at 140.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +5224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 125.73 0)
+			(at 140.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +5233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 125.73 0)
+			(at 140.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5255,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 143.51 0)
+		(at 162.56 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6003,7 +5264,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbc3a84a-4b33-46dc-a160-8ad585228829")
 		(property "Reference" "#PWR060"
-			(at 173.99 149.86 0)
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +5273,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 148.59 0)
+			(at 162.56 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +5282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +5291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +5300,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +5322,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 143.51 0)
+		(at 184.15 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6070,7 +5331,7 @@
 		(fields_autoplaced yes)
 		(uuid "beb03d7d-d7a4-4692-813d-34e903a89c33")
 		(property "Reference" "#PWR067"
-			(at 193.04 149.86 0)
+			(at 184.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +5340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 148.59 0)
+			(at 184.15 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +5349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 143.51 0)
+			(at 184.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +5358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 143.51 0)
+			(at 184.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +5367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 143.51 0)
+			(at 184.15 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +5389,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 143.51 0)
+		(at 97.79 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6137,7 +5398,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf174ce2-ef0f-4b1f-849c-ad6727a2a9af")
 		(property "Reference" "#PWR038"
-			(at 116.84 149.86 0)
+			(at 97.79 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +5407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 148.59 0)
+			(at 97.79 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +5416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 143.51 0)
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +5425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 143.51 0)
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +5434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 143.51 0)
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +5553,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 212.09 125.73 0)
+		(at 205.74 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6300,7 +5561,7 @@
 		(dnp no)
 		(uuid "c598d94e-878b-4805-9041-7dda9e14cbcc")
 		(property "Reference" "#PWR070"
-			(at 212.09 129.54 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +5570,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 212.09 123.444 0)
+			(at 205.74 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +5578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 125.73 0)
+			(at 205.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +5587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 125.73 0)
+			(at 205.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +5596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 125.73 0)
+			(at 205.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +5618,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 265.43 138.43 0)
+		(at 265.43 133.35 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6366,7 +5627,7 @@
 		(dnp no)
 		(uuid "c7c4bfd4-838e-45cf-9012-073d70c0e6b7")
 		(property "Reference" "#PWR087"
-			(at 265.43 142.24 0)
+			(at 265.43 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +5636,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 265.43 136.144 0)
+			(at 265.43 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +5644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 138.43 0)
+			(at 265.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +5653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 138.43 0)
+			(at 265.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +5662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 138.43 0)
+			(at 265.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +5817,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 116.84 125.73 0)
+		(at 97.79 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6564,7 +5825,7 @@
 		(dnp no)
 		(uuid "c8afcf02-eab7-40b9-8dc6-c02e37893e26")
 		(property "Reference" "#PWR037"
-			(at 116.84 129.54 0)
+			(at 97.79 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +5834,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 116.84 123.444 0)
+			(at 97.79 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +5842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 125.73 0)
+			(at 97.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +5851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 125.73 0)
+			(at 97.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +5860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 125.73 0)
+			(at 97.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +5881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
+		(lib_id "Galvani:WS2812B-2020")
 		(at 250.19 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6636,12 +5897,13 @@
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 258.064 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 251.46 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
@@ -6654,7 +5916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
 			(at 252.73 145.415 0)
 			(effects
 				(font
@@ -6673,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
+		(property "LCSC" "C965555"
 			(at 250.19 135.89 0)
 			(effects
 				(font
@@ -6792,7 +6054,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:Cap 100nF 0201")
-		(at 147.32 128.27 270)
+		(at 133.35 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6800,7 +6062,7 @@
 		(dnp no)
 		(uuid "cb8fbc4e-9c2a-4305-a117-175a731105e5")
 		(property "Reference" "C24"
-			(at 143.256 127.254 90)
+			(at 129.286 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +6071,7 @@
 			)
 		)
 		(property "Value" "Cap 100nF 0201"
-			(at 127 128.27 0)
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +6080,7 @@
 			)
 		)
 		(property "Footprint" "Galvani:C_0201_0603Metric"
-			(at 134.62 128.27 0)
+			(at 120.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +6089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 128.27 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,7 +6098,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 128.27 0)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +6107,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 129.54 128.27 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +6116,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 132.08 128.27 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +6125,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 148.59 127.254 90)
+			(at 134.62 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +6217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 143.51 0)
+		(at 140.97 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6964,7 +6226,7 @@
 		(fields_autoplaced yes)
 		(uuid "d029c105-9715-4efe-9410-92d9266a5457")
 		(property "Reference" "#PWR055"
-			(at 154.94 149.86 0)
+			(at 140.97 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +6235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 148.59 0)
+			(at 140.97 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +6244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 143.51 0)
+			(at 140.97 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +6253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 143.51 0)
+			(at 140.97 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +6262,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 143.51 0)
+			(at 140.97 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +6284,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 146.05 165.1 0)
+		(at 53.34 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7031,7 +6293,7 @@
 		(dnp no)
 		(uuid "d0b4221c-3ff2-4a4b-a4fa-66c66ca33699")
 		(property "Reference" "#PWR049"
-			(at 146.05 168.91 0)
+			(at 53.34 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +6302,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 146.05 162.814 0)
+			(at 53.34 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +6310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 165.1 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +6319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 165.1 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +6328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 165.1 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,73 +6343,6 @@
 			(project "Galvani"
 				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 265.43 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0d5500d-3047-47b0-afde-524a5d46576c")
-		(property "Reference" "#PWR086"
-			(at 265.43 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "177df069-918a-49f5-ae7e-1240b5818805")
-		)
-		(instances
-			(project "Galvani"
-				(path "/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/f6e1e3b7-272a-42a2-8558-f6c22f88d261"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -7415,7 +6610,7 @@
 	)
 	(symbol
 		(lib_id "Galvani:V5V")
-		(at 173.99 125.73 0)
+		(at 162.56 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7423,7 +6618,7 @@
 		(dnp no)
 		(uuid "e7a27f16-70bf-4289-af2b-136956441487")
 		(property "Reference" "#PWR059"
-			(at 173.99 129.54 0)
+			(at 162.56 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +6627,7 @@
 			)
 		)
 		(property "Value" "V5V"
-			(at 173.99 123.444 0)
+			(at 162.56 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +6635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 125.73 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +6644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 125.73 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +6653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 125.73 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,8 +6674,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Galvani:WS2812C-2020")
-		(at 135.89 135.89 0)
+		(lib_id "Galvani:WS2812B-2020")
+		(at 119.38 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7488,23 +6683,24 @@
 		(dnp no)
 		(uuid "f25551bf-fad2-4629-93ca-759c14716847")
 		(property "Reference" "D2"
-			(at 139.954 129.794 0)
+			(at 123.444 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 143.764 142.24 0)
+		(property "Value" "WS2812B-2020"
+			(at 120.65 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Galvani:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 137.16 143.51 0)
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,8 +6709,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 138.43 145.415 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2012110135_Worldsemi-WS2812B-2020_C965555.pdf"
+			(at 121.92 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +6720,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 135.89 135.89 0)
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,8 +6728,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2976072"
-			(at 135.89 135.89 0)
+		(property "LCSC" "C965555"
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +6739,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi"
-			(at 135.89 135.89 0)
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +6749,7 @@
 			)
 		)
 		(property "MPN" "WS2812C-2020-V1"
-			(at 135.89 135.89 0)
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

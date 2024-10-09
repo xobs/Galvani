@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -61,7 +61,8 @@
       "drc_exclusions": [
         "courtyards_overlap|114169999|115773180|0f1c280c-8b1a-45c5-b60f-446087384801|6848ee57-d4a7-43be-9643-4ed14b9fe12d",
         "courtyards_overlap|114320001|115773180|0f1c280c-8b1a-45c5-b60f-446087384801|cb86ef3a-4215-4d26-8b63-1ecce1dec16f",
-        "courtyards_overlap|158379999|113804629|089ae137-8b48-4775-a314-b4696d044fb9|3954abdb-5bbf-42b8-a9fb-4090c503821c"
+        "courtyards_overlap|158379999|113804629|089ae137-8b48-4775-a314-b4696d044fb9|3954abdb-5bbf-42b8-a9fb-4090c503821c",
+        "items_not_allowed|164320437|114159600|bd6f90b0-bd7b-4f20-a165-b1356da01f68|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -244,12 +245,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|406400|1079500|5f7fb15a-4382-4b4a-8d71-2e9f98c240a2|9549b0e5-21de-4d70-aa7d-6518da58ea8a|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158",
-      "pin_to_pin|1143000|1041400|e6d8a1e7-97ec-4778-b038-3c6a75705d13|e2e8c505-c7b2-4bc8-8b10-328957649a5a|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158",
-      "pin_to_pin|635000|304800|e5c8dd74-2fed-419e-b778-b3b6f41525f1|7d355302-a7ed-42dd-9cfc-4343e7e29ff6|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/fdad616c-d84e-4646-9136-447b430fe2c1|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/fdad616c-d84e-4646-9136-447b430fe2c1|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158",
-      "pin_to_pin|635000|304800|e5c8dd74-2fed-419e-b778-b3b6f41525f1|893637f9-6ee3-4ec4-b4df-ccbdd6e725d9|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/fdad616c-d84e-4646-9136-447b430fe2c1|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/fdad616c-d84e-4646-9136-447b430fe2c1|/d4feac13-e1c2-4c70-b410-f6e6e99e9b69/8a5f0d37-658e-49b2-ad84-83ac3f36889d/72171bc9-e130-4b79-835c-f29e2b65c158"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -261,7 +257,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -275,7 +271,7 @@
         1,
         0,
         0,
-        0,
+        1,
         0,
         2,
         2,
@@ -289,7 +285,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0,
         1,
         0,
@@ -303,7 +299,7 @@
         0,
         0,
         0,
-        0,
+        1,
         1,
         2,
         1,
@@ -317,21 +313,7 @@
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
         0,
         0,
         0,
@@ -353,13 +335,27 @@
         2
       ],
       [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
         0,
         0,
         0,
         1,
         0,
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -373,7 +369,7 @@
         2,
         0,
         0,
-        0,
+        1,
         0,
         2,
         2,
@@ -387,7 +383,7 @@
         1,
         0,
         0,
-        0,
+        1,
         0,
         2,
         0,
@@ -401,7 +397,7 @@
         1,
         0,
         0,
-        0,
+        1,
         0,
         2,
         0,
@@ -449,7 +445,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
