@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "d4feac13-e1c2-4c70-b410-f6e6e99e9b69")
 	(paper "A4")
+	(title_block
+		(title "Galvani")
+		(date "2024-10-13")
+		(rev "EVT2")
+	)
 	(lib_symbols)
 	(image
 		(at 238.76 123.19)
